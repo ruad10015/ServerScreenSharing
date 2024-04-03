@@ -1,0 +1,13 @@
+﻿<Window x:Class="Server.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Server"
+        mc:Ignorable="d"
+        Title="MainWindow" Name="mainWindow" Height="450" Width="600">
+    <StackPanel>
+        <Label Name="sendInfo" FontSize="30" FontFamily="Comic Sans MC"></Label>
+        <Image Name="photoCavod" HorizontalAlignment="Left" Height="324" Margin="37,30,0,0" VerticalAlignment="Top" Width="525"/>
+    </StackPanel>
+</Window>
